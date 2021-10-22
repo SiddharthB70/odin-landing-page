@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+a, a:visited{
+    color: currentColor;
+    text-decoration: none;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+
+}
+
+.header .top{
+    display: flex;
+    justify-content: center;
+    padding: 16px 0;
+    gap: 64px;
+}
+
+.header .top .left{
+    width: 400px;
+}
+
+#logo{      
+    height: 100px;
+    border-radius: 30px;
+}
+
+.header .top .right{
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+ul{
+    color: #E5E7EB;
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+
+.header .bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 60px 0 84px;
+}
+
+.header .bottom .left span{
+    font-size: 48px;
+    font-weight: 900;
+    display: block;
+}
+
+.header .bottom .left{
+    width: 400px;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+
+#header-image.right{
+    width: 400px;
+    border-radius: 30px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .top{
+    
+}
