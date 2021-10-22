@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Helvetica;
     display: flex;
     flex-direction: column;
 }
@@ -66,6 +66,7 @@ ul{
     font-size: 48px;
     font-weight: 900;
     display: block;
+    color: #F9FAF8;
 }
 
 .header .bottom .left{
@@ -80,11 +81,125 @@ ul{
     border-radius: 30px;
 }
 
+.header .bottom .left a{
+    display: block;
+    background-color: #3882F6;
+    width: 150px;
+    padding: 10px;
+    margin-top: 8px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
 .content{
     display: flex;
     flex-direction: column;
+    padding: 32px 16px;
 }
 
 .content .top{
-    
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 200px;
+}
+
+.card img{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 4px;
+    border-radius: 30px;
+}
+
+.content .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-top: 32px;
+    font-size: 18px;
+}
+
+.content .bottom p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.quote p span{
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.ad-container{
+    display: flex;
+    padding: 64px 32px;
+    justify-content: center;
+}
+
+.ad{
+    background-color:#3882F6;
+    display: flex;
+    padding: 32px;
+    flex-basis: 864px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 32px;
+    color: white;
+}
+
+.ad .left span{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ad .right{
+    max-width: 150px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: white;
+}
+
+.footer{
+    padding: 32px;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
 }
